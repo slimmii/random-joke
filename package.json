@@ -9,10 +9,18 @@
   "author": "Andie Similon",
   "license": "ISC",
   "devDependencies": {
+    "eslint": "^6.8.0",
     "jest": "^24.9.0"
   },
   "keywords": [
-    "funny", "jokes", "exercise", "newbie", "async", "promise", "awkward", "meme"
+    "funny",
+    "jokes",
+    "exercise",
+    "newbie",
+    "async",
+    "promise",
+    "awkward",
+    "meme"
   ],
   "dependencies": {
     "request": "^2.88.0"
