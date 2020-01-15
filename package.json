@@ -1,14 +1,20 @@
 {
-  "name": "test",
-  "version": "1.0.0",
-  "description": "Test package",
+  "name": "random-joke",
+  "version": "1.0.4",
+  "description": "returns a random joke using promises.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
-  "author": "",
+  "author": "Andie Similon",
   "license": "ISC",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "keywords": [
+    "funny", "jokes", "exercise", "newbie", "async", "promise", "awkward", "meme"
+  ],
   "dependencies": {
-    "random-joke": "1.0.2"
+    "request": "^2.88.0"
   }
 }
